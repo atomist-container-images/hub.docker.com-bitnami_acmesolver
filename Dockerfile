@@ -1,12 +1,21 @@
-# Tags: latest, 1.8.0-debian-10-r22, 1.8.0, 1-debian-10, 1
+# Tags: latest, 1.8.0-debian-10-r25, 1.8.0, 1-debian-10, 1
 FROM bitnami/acmesolver:latest
-FROM bitnami/acmesolver:1.8.0-debian-10-r22
+FROM bitnami/acmesolver:1.8.0-debian-10-r25
 FROM bitnami/acmesolver:1.8.0
 FROM bitnami/acmesolver:1-debian-10
 FROM bitnami/acmesolver:1
 
 # Tags: _
 FROM bitnami/acmesolver:_
+
+# Tags: 1.8.0-debian-10-r24
+FROM bitnami/acmesolver:1.8.0-debian-10-r24
+
+# Tags: 1.8.0-debian-10-r23
+FROM bitnami/acmesolver:1.8.0-debian-10-r23
+
+# Tags: 1.8.0-debian-10-r22
+FROM bitnami/acmesolver:1.8.0-debian-10-r22
 
 # Tags: 1.8.0-debian-10-r21
 FROM bitnami/acmesolver:1.8.0-debian-10-r21
@@ -83,15 +92,3 @@ FROM bitnami/acmesolver:1.7.2-debian-10-r11
 
 # Tags: 1.7.2-debian-10-r10
 FROM bitnami/acmesolver:1.7.2-debian-10-r10
-
-# Tags: 1.7.2-debian-10-r9
-FROM bitnami/acmesolver:1.7.2-debian-10-r9
-
-# Tags: 1.7.2-debian-10-r8
-FROM bitnami/acmesolver:1.7.2-debian-10-r8
-
-# Tags: 1.7.2-debian-10-r7
-FROM bitnami/acmesolver:1.7.2-debian-10-r7
-
-# Tags: 1.7.2-debian-10-r6
-FROM bitnami/acmesolver:1.7.2-debian-10-r6
